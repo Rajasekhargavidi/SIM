@@ -18,14 +18,15 @@ class DashBoard extends Component {
                       paddingLeft: "150px"
                     }}
                   >
-                    <strong>Students logins</strong>
+                    <img src="/stdlogo.jpg" alt="" />
+                    <strong>Student Login</strong>
                   </h2>
                 </Link>
               </div>
               <div>
                 <Link to="/Studentsln.js">
                   <h2 style={{ textAlign: "end", paddingLeft: "500px" }}>
-                    <strong>Teachers logins</strong>
+                    <strong>Teacher Login</strong>
                   </h2>
                 </Link>
               </div>
@@ -34,13 +35,13 @@ class DashBoard extends Component {
               <div>
                 <Link to="/Studentsln.js">
                   <h2 style={{ textAlign: "start", paddingLeft: "150px" }}>
-                    <strong>Principal logins</strong>
+                    <strong>Principal Login</strong>
                   </h2>
                 </Link>
               </div>
               <div>
                 <Link to="/FeeDetails.js">
-                  <h2 style={{ textAlign: "right", paddingLeft: "500px" }}>
+                  <h2 style={{ textAlign: "right", paddingLeft: "490px" }}>
                     <strong>Student Details</strong>
                   </h2>
                 </Link>
